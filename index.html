@@ -41,6 +41,44 @@
         </ul>
     </div>
 </div>
+<div>
+    <div>
+        <h3>Notas</h3>
+        <ul> 
+            <li><input type="number" name="nota-1" id="nota-1"  class="nota-1" required></li>
+            <li><input type="number" name="nota-2" id="nota-2" class="nota-2" required></li>
+            <li><input type="number" name="nota-3" id="nota-3" class="nota-3" required></li>
+            <li><input type="number" name="promedio" id="promedio" class="promedio" required></li>
+        </ul>
+    </div>
+</div>
+<article>
+    <table border="1">
+        <tr>
+            <th>Materia</th>
+            <th>Nota parcial 1</th>
+            <th>Nota Parcial 2</th>
+            <th>Nota Parcial 3</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="Materia"></td>
+            <td><input type="number" name="parcial1"></td>
+            <td><input type="number" name="parcial2"></td>
+            <td><input type="number" name="parcial3"></td>
+
+        </tr>
+        <tr>
+            <td>Total promedio</td>
+            <td colspan="3"><input type="text" name="promedio" readonly></td>
+        </tr>
+        <tr>
+            <td colspan="4"><button type="button" onclick="calcularPromedio()">Calcular Promedio</button></td>
+        </tr>
+    </table>
+    
+
+
+</article>
 </section>
 </form>
 </main>
