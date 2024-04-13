@@ -9,16 +9,26 @@
 <body>
     <main>
 <form method="post">
-<section>
-    <label for="name">Nombre</label>
-    <input type="text" name="name" id="name">
-    <label for="lastname">Apellido</label>
-    <input type="text" name="lastname" id="lastname">
-    <label for="file">Legajo</label>
-    <input type="text" name="file" id="file" required>    
+<section class="contenido-form">
+  <section class="datos">
+    <div>
+    <h3>Nombre</h3>
+    <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+    <h3>Apellido</h3>
+    <input type="text" name="lastname" id="lastname" required>
+    </div>
+    <div>
+    <h3>Legajo</h3>
+    <input type="text" name="file" id="file" required>  
+    </div>  
+    </section>
+    <section class="email">
     <label for="email">Email</label>
     <input type="email" name="email" id="email" required>
-</section>
+    </section>
+  
 <di>
     <div>
         <h3>Materias</h3>
@@ -31,6 +41,7 @@
         </ul>
     </div>
 </di>
+</section>
 </form>
 </main>
     
