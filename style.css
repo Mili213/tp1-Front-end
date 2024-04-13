@@ -33,3 +33,28 @@ ul{
 .container-materias-notas{
     margin-left: 100px;
 }
+.total-promedio{
+    width: 50px;
+    
+}
+.button-prom{
+    margin-left: 320px;
+    margin-bottom: 15px;
+}
+.button-enviar{
+    margin-left: 30px;
+   
+}
+.botones{
+    display: flex;
+}
+
+.button-prom button,
+.button-enviar button {
+    background-color: black; 
+    border: none; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 4px; 
+}
