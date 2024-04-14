@@ -57,7 +57,7 @@ ul{
     border-radius: 4px; 
 }
 
-.button-prom button:hover
+.button-prom button:hover,
 .button-enviar button:hover { 
     background-color: #806dec;
 }
