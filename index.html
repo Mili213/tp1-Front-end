@@ -9,18 +9,27 @@
 <body>
     <main>
 <form method="post">
-<section>
-    <label for="name">Nombre</label>
-    <input type="text" name="name" id="name">
-    <label for="lastname">Apellido</label>
-    <input type="text" name="lastname" id="lastname">
-    <label for="file">Legajo</label>
-    <input type="text" name="file" id="file" required>    
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" required>
-</section>
-<div>
+<section class="contenido-form">
+    <section class="datos">
     <div>
+    <h3>Nombre</h3>
+    <input type="text" name="name" id="name">
+    </div>
+    <div>
+    <h3>Apellido</h3>
+    <input type="text" name="lastname" id="lastname">
+    </div>
+    <div>
+    <h3>Legajo</h3>
+    <input type="text" name="file" id="file" required>    
+    </div>
+    </section>
+    <section class="email">
+    <label for="email"><strong>Email</strong></label>
+    <input type="email" name="email" id="email" required>
+    </section>
+<div class="container-materias-notas">
+    <div class="materias">
         <h3>Materias</h3>
         <ul> 
             <li><input type="text" name="materia-1" id="materia-1" class="materia-1" required></li>
@@ -30,7 +39,27 @@
             <li><input type="text" name="materia-5" id="materia-5" class="materia-5" required></li>
         </ul>
     </div>
+    <div>
+        <h3>Notas</h3>
+        <ul>
+            <li><input type="number" name="nota1" id="nota1" class="notas" required></li>
+            <li><input type="number" name="nota2" id="nota2" class="notas" required></li>
+            <li><input type="number" name="nota3" id="nota3" class="notas" required></li>
+            <li><input type="number" name="nota4" id="nota4" class="notas" required></li>
+            <li><input type="number" name="nota5" id="nota5" class="notas" required></li>
+        </ul>
+    </div>
 </div>
+<div class="botones">
+<section class="button-prom">
+<button type="button">Promediar</button>
+<span id="resultado-promedio"></span>
+</section>
+<section class="button-enviar">
+    <button>Enviar</button>
+</section>
+</div>
+</section>
 </form>
 </main>
     
