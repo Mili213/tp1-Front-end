@@ -31,12 +31,10 @@ ul{
     margin-bottom: 15px;
 }
 .container-materias-notas{
-    margin-left: 100px;
+    margin-left: 130px;
+    display: flex;
 }
-.total-promedio{
-    width: 50px;
-    
-}
+
 .button-prom{
     margin-left: 320px;
     margin-bottom: 15px;
