@@ -1,8 +1,8 @@
  function validarFormulario() {
         var form = document.getElementById("alumno-form");
-        var nombre = form.nombre.value;
-        var apellido = form.apellido.value;
-        var legajo = form.legajo.value;
+        var nombre = form.name.value;
+        var apellido = form.lastname.value;
+        var legajo = form.file.value;
         var email = form.email.value;
 
         if (!nombre || !apellido || !legajo || !email) {
