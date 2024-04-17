@@ -70,3 +70,13 @@
         document.getElementById("resultado-promedio").innerText = "";
     }
     }
+
+
+
+
+    //PUNTO 1
+    let mostrar = [];
+    for (let i = 0; i < 10; i++) {
+        mostrar.push(Math.floor (Math.random()*100) + 1) ;
+  
+    }
