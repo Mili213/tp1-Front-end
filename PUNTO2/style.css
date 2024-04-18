@@ -1,3 +1,4 @@
+/*ESTILOS PARA CAMPO EMAIL*/
 .email{
     display: flex;
     padding-left: 50px;
@@ -6,6 +7,7 @@
 #email{
     width: 540px;
 }
+/*ESTILOS PARA CAMPO NOMBRE Y APELLIDO*/
 #name{
     width: 200px;
 }
@@ -17,24 +19,29 @@ padding-right: 10px;
 h3{
     margin-bottom: 0;
 }
+/*ESTILO PARA LISTA DE MATERIAS*/
 ul{
     list-style-type: decimal;
 }
+/*SECCIÓN DATOS PERSOANLES*/
 .datos{
     margin-bottom: 20px;
 }
+/*CAMPOS DE MATERIAS*/
 .materia{
     margin-bottom: 15px;
 }
+/*CAMPOS DE NOTAS*/
 .notas{
     width: 50px;
     margin-bottom: 15px;
 }
+/*CONTENEDOR DE MATERIAS Y NOTAS*/
 .container-materias-notas{
     margin-left: 130px;
     display: flex;
 }
-
+/*ESTILOS PARA BOTONES*/
 .button-prom{
     margin-left: 320px;
     margin-bottom: 15px;
@@ -46,6 +53,8 @@ ul{
 .botones{
     display: flex;
 }
+
+/*BOTONES DE PROMEDIO Y ENVIAR*/
 
 .button-prom button,
 .button-enviar button {
@@ -62,6 +71,7 @@ ul{
     background-color: #806dec;
 }
 
+/*BORDE DE FORMULARIO*/
 .border-form{ 
     border-style: ridge;
     border-color: black;
@@ -69,6 +79,7 @@ ul{
     margin: auto;
     background-color: rgb(247, 229, 204);
 }
+/*CONTENIDO DE FORMULARIO*/
 .contenido-form{ 
     text-align: center;
 }
